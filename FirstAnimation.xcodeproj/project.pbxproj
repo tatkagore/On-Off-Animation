@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41CE9510280AECFA00FDE33C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE950F280AECFA00FDE33C /* Tests_iOS.swift */; };
-		41CE9512280AECFA00FDE33C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE9511280AECFA00FDE33C /* Tests_iOSLaunchTests.swift */; };
-		41CE951C280AECFA00FDE33C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE951B280AECFA00FDE33C /* Tests_macOS.swift */; };
-		41CE951E280AECFA00FDE33C /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE951D280AECFA00FDE33C /* Tests_macOSLaunchTests.swift */; };
 		41CE951F280AECFA00FDE33C /* FirstAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE94F7280AECF400FDE33C /* FirstAnimationApp.swift */; };
 		41CE9520280AECFA00FDE33C /* FirstAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE94F7280AECF400FDE33C /* FirstAnimationApp.swift */; };
 		41CE9521280AECFA00FDE33C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CE94F8280AECF400FDE33C /* ContentView.swift */; };
@@ -44,11 +40,7 @@
 		41CE9504280AECFA00FDE33C /* FirstAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41CE9506280AECFA00FDE33C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		41CE950B280AECFA00FDE33C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		41CE950F280AECFA00FDE33C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		41CE9511280AECFA00FDE33C /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		41CE9517280AECFA00FDE33C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		41CE951B280AECFA00FDE33C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		41CE951D280AECFA00FDE33C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +80,6 @@
 			children = (
 				41CE94F6280AECF400FDE33C /* Shared */,
 				41CE9505280AECFA00FDE33C /* macOS */,
-				41CE950E280AECFA00FDE33C /* Tests iOS */,
-				41CE951A280AECFA00FDE33C /* Tests macOS */,
 				41CE94FF280AECFA00FDE33C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,24 +111,6 @@
 				41CE9506280AECFA00FDE33C /* macOS.entitlements */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		41CE950E280AECFA00FDE33C /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				41CE950F280AECFA00FDE33C /* Tests_iOS.swift */,
-				41CE9511280AECFA00FDE33C /* Tests_iOSLaunchTests.swift */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		41CE951A280AECFA00FDE33C /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				41CE951B280AECFA00FDE33C /* Tests_macOS.swift */,
-				41CE951D280AECFA00FDE33C /* Tests_macOSLaunchTests.swift */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,8 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41CE9512280AECFA00FDE33C /* Tests_iOSLaunchTests.swift in Sources */,
-				41CE9510280AECFA00FDE33C /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41CE951E280AECFA00FDE33C /* Tests_macOSLaunchTests.swift in Sources */,
-				41CE951C280AECFA00FDE33C /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
